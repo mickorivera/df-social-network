@@ -1,0 +1,7 @@
+
+*.sublime-project
+*.sublime-workspace
+
+db.sqlite3
+
+__pycache__
