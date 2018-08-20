@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from socialnetworkauth.models import User
-from socialnetworkauth.serializers import UserSerializer
+from accounts.models import User
+from accounts.serializers import UserSerializer
 
 
 class UserList(generics.ListCreateAPIView):
